@@ -5,20 +5,23 @@ set(CMAKE_CXX_STANDARD 20)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}")
 
-add_executable(sfml_engine main.cpp engine/math/Vector3.cpp engine/math/Vector3.h engine/math/Vector2.cpp engine/math/Vector2.h)
+add_executable(sfml_engine main.cpp
+        engine/math/Vector3.cpp
+        engine/math/Vector3.h engine/math/Vector2.cpp
+        engine/math/Vector2.h engine/math/Vector4.cpp engine/math/Vector4.h engine/Consts.h)
 
-if(APPLE OR UNIX)
+if (APPLE OR UNIX)
     include_directories(/usr/local/include)
-else()
+else ()
     set(SFML_DIR "C:/Libraries/SFML/lib/cmake/SFML")
     set(SFML_STATIC_LIBRARIES TRUE)
-endif()
+endif ()
 
 find_package(SFML 2.5.1 COMPONENTS graphics audio REQUIRED)
 
 if (SFML_FOUND)
     include_directories(${SFML_INCLUDE_DIR})
-endif()
+endif ()
 
 target_link_libraries(${CMAKE_PROJECT_NAME} sfml-audio sfml-network sfml-graphics sfml-window sfml-system)
 
@@ -34,10 +37,10 @@ if (APPLE)
 
     target_link_libraries(${CMAKE_PROJECT_NAME} "-framework OpenGL")
     target_link_libraries(${CMAKE_PROJECT_NAME} "-framework GLUT")
-elseif(UNIX)
+elseif (UNIX)
     find_package(OpenGL REQUIRED)
     find_package(GLUT REQUIRED)
 
     target_link_libraries(${CMAKE_PROJECT_NAME} ${OPENGL_LIBRARIES})
     target_link_libraries(${CMAKE_PROJECT_NAME} ${GLUT_LIBRARY})
-endif()
+endif ()

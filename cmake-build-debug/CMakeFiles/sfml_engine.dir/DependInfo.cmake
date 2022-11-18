@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "F:/Projects/C++/Learn/sfml-engine/engine/math/Vector2.cpp" "F:/Projects/C++/Learn/sfml-engine/cmake-build-debug/CMakeFiles/sfml_engine.dir/engine/math/Vector2.cpp.obj"
   "F:/Projects/C++/Learn/sfml-engine/engine/math/Vector3.cpp" "F:/Projects/C++/Learn/sfml-engine/cmake-build-debug/CMakeFiles/sfml_engine.dir/engine/math/Vector3.cpp.obj"
+  "F:/Projects/C++/Learn/sfml-engine/engine/math/Vector4.cpp" "F:/Projects/C++/Learn/sfml-engine/cmake-build-debug/CMakeFiles/sfml_engine.dir/engine/math/Vector4.cpp.obj"
   "F:/Projects/C++/Learn/sfml-engine/main.cpp" "F:/Projects/C++/Learn/sfml-engine/cmake-build-debug/CMakeFiles/sfml_engine.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

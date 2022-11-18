@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="F:/Projects/C++/Learn/sfml-engine/engine/Consts.h">
+			<Option target="sfml_engine"/>
+		</Unit>
 		<Unit filename="F:/Projects/C++/Learn/sfml-engine/engine/math/Vector2.cpp">
 			<Option target="sfml_engine"/>
 		</Unit>
@@ -94,6 +97,12 @@
 			<Option target="sfml_engine"/>
 		</Unit>
 		<Unit filename="F:/Projects/C++/Learn/sfml-engine/engine/math/Vector3.h">
+			<Option target="sfml_engine"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/Learn/sfml-engine/engine/math/Vector4.cpp">
+			<Option target="sfml_engine"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/Learn/sfml-engine/engine/math/Vector4.h">
 			<Option target="sfml_engine"/>
 		</Unit>
 		<Unit filename="F:/Projects/C++/Learn/sfml-engine/main.cpp">

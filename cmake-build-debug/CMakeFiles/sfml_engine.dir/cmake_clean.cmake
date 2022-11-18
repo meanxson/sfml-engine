@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "../sfml_engine.pdb"
   "CMakeFiles/sfml_engine.dir/engine/math/Vector2.cpp.obj"
   "CMakeFiles/sfml_engine.dir/engine/math/Vector3.cpp.obj"
+  "CMakeFiles/sfml_engine.dir/engine/math/Vector4.cpp.obj"
   "CMakeFiles/sfml_engine.dir/main.cpp.obj"
   "libsfml_engine.dll.a"
 )

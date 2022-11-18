@@ -176,6 +176,30 @@ engine/math/Vector3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sfml_engine.dir\build.make CMakeFiles/sfml_engine.dir/engine/math/Vector3.cpp.s
 .PHONY : engine/math/Vector3.cpp.s
 
+engine/math/Vector4.obj: engine/math/Vector4.cpp.obj
+.PHONY : engine/math/Vector4.obj
+
+# target to build an object file
+engine/math/Vector4.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sfml_engine.dir\build.make CMakeFiles/sfml_engine.dir/engine/math/Vector4.cpp.obj
+.PHONY : engine/math/Vector4.cpp.obj
+
+engine/math/Vector4.i: engine/math/Vector4.cpp.i
+.PHONY : engine/math/Vector4.i
+
+# target to preprocess a source file
+engine/math/Vector4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sfml_engine.dir\build.make CMakeFiles/sfml_engine.dir/engine/math/Vector4.cpp.i
+.PHONY : engine/math/Vector4.cpp.i
+
+engine/math/Vector4.s: engine/math/Vector4.cpp.s
+.PHONY : engine/math/Vector4.s
+
+# target to generate assembly for a file
+engine/math/Vector4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sfml_engine.dir\build.make CMakeFiles/sfml_engine.dir/engine/math/Vector4.cpp.s
+.PHONY : engine/math/Vector4.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -215,6 +239,9 @@ help:
 	@echo ... engine/math/Vector3.obj
 	@echo ... engine/math/Vector3.i
 	@echo ... engine/math/Vector3.s
+	@echo ... engine/math/Vector4.obj
+	@echo ... engine/math/Vector4.i
+	@echo ... engine/math/Vector4.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
