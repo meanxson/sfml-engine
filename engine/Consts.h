@@ -2,10 +2,8 @@
 // Created by meanx on 17/11/2022.
 //
 
-#ifndef SFML_ENGINE_CONSTS_H
-#define SFML_ENGINE_CONSTS_H
 
-#endif //SFML_ENGINE_CONSTS_H
+#include "math/Vector2.h"
 
 namespace Consts {
 
